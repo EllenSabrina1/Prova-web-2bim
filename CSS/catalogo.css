@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+
+
+header{
+    background-color: #071739;
+    text-align:left;
+    padding: 20px;
+    color: #fff;
+  }
+
+  header img{
+    width: 20px;
+    height:20px ;
+    display: inline-block;
+    position: relative;
+    left: 1380px;
+    top: -30px;
+  }
+
+  ul{
+    background-color: #cdd5db;
+    position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 8px 58px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #4b6382;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 155px;
+}
+
+.catalogo-esmalte{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 23%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.impala-xodó img{
+  width: 100%;
+}
+
+.buy-button {
+  background-color: #071739;
+  color: #ffffff;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: -5px;
+
+}
+.buy-button:hover {
+  background-color: #4b6382;
+}
+
+.card p{
+  margin-bottom: 10px;
+  text-align: center;
+  color: #071739;
+}
+
+.bold{
+  font-weight: bold;
+  color: #4b6382;
+}
+
+  footer{
+    background-color: #071739;
+    text-align: center;
+    padding: 60px;
+    color: #ffffff;
+    position: relative;
+    top: 100px;
+  }
+
+  .ftc{
+    background-color: #071739;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 130px;
+  }

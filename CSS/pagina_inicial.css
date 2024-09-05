@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+
+
+  header{
+    background-color: #071739;
+    text-align:left;
+    padding: 20px;
+    color: #fff;
+  }
+
+  header img{
+    width: 20px;
+    height:20px ;
+    display: inline-block;
+    position: relative;
+    left: 1380px;
+    top: -30px;
+    
+  }
+
+  
+  
+
+  footer{
+    background-color: #071739;
+    text-align: center;
+    padding: 60px;
+    color: #ffffff;
+    position: relative;
+    top: 100px;
+  }

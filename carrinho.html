@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diva Esmaltes</title>
+    <link rel="stylesheet" href="CSS/pagina_inicial.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 200%;">Diva Esmaltes</h1>   
+      <a href="/carrinho.html">
+        <img src="img/carrinho-de-compras (1).png" alt="carrinho">
+      </a>
+    <img src="img/perfil.png" alt="perfil" ></a>
+    <a href="/suporte.html">
+      <img src="img/suporte.png" alt="suporte">
+    </a>
+    </header>
+
+    <ul style="background-color: #CDD5DB; position: -webkit-sticky; position: sticky; top: 0; list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
+        <li style="float: left"; ><a href="/index.html" style="display: block; color: rgb(0, 0, 0); text-align: center; padding: 8px 58px; text-decoration: none;">Home</a></li>
+        <li style="float: left";><a href="/catalogo.html" style="display: block; color: rgb(0, 0, 0); text-align: center; padding: 8px 58px; text-decoration: none;">Esmaltes</a></li>
+        <li style="float: left";><a target="#" style="display: block; color: rgb(0, 0, 0); text-align: center; padding: 8px 58px; text-decoration: none;">Limpeza</a></li>
+        <li style="float: left";><a target="#" style="display: block; color: rgb(0, 0, 0); text-align: center; padding: 8px 58px; text-decoration: none;">Coleções</a></li>
+        <li style="float: left";><a href="#" style="display: block; color: rgb(0, 0, 0); text-align: center; padding: 8px 58px; text-decoration: none;">Promoções</a></li>
+        <li style="float: left";><a target="#" style="display: block; color: rgb(0, 0, 0); text-align: center; padding: 8px 58px; text-decoration: none;">Acessórios</a></li>
+        <li style="float: left";><a target="#"style="display: block; color: rgb(0, 0, 0); text-align: center; padding: 8px 58px; text-decoration: none;">Tratamento</a></li>
+        <li style="float: left";><a href="/suporte.html"style="display: block; color: rgb(0, 0, 0); text-align: center; padding: 8px 58px; text-decoration: none;">Suporte</a></li>
+      </ul>
+
+      <main>
+        <div class="container">
+            <h1>Carrinho de compras</h1>
+            <hr>
+            <ul class="list-group mb-3">
+                <li class="list-group-item py-3" >
+                    <div class="row g-3">
+                        <div class=""col-4 col-md3 col-lg-2>
+                        <a href="#">
+                            <img src="img/azul-escuro.webp" class="img-thumbnail" width="150" height="150">
+                        </a>
+                    </div>
+
+                    <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                        <h4 style="font-size: 24px; width: 60%;" ><b><a href="#" class="text-decoration-none text-black">Esmalte Impala</a>
+                        </b></h4>
+                        <h4>
+                            <small> Esmalte Impala Teu Cheiro cremoso</small>
+                        </h4>
+                    </div>
+
+                    <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3
+                    offset-lg-0 col-xl-2 aling-self-center mt-3">
+                    <div class="input-group">
+                        <button type="button" class="btn btn-outline-dark btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                              </svg>
+                        </button>
+                        <input type="text" class="form-control text-center border-dark" value="1">
+                        <button type="button" class="btn btn-outline-dark btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                              </svg>
+                        </button>
+                        <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
+                              </svg>
+                        </button>
+                    </div>
+
+                    <div class="text-right mt-2">
+                        <small>Valor unit: R$ 3,99</small><br>
+                        <span class="text-dark">Sub Total: R$ 3,99</span>
+                    </div>
+
+                    </div>
+
+                    </div>
+
+                    
+
+                </li>
+
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class=""col-4 col-md3 col-lg-2>
+                        <a href="#">
+                            <img src="img/impala-descomplicado.jpg" class="img-thumbnail" width="150" height="150">
+                        </a>
+                    </div>
+
+                    <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                        <h4><b><a href="#" class="text-decoration-none text-black">Esmalte Impala</a>
+                        </b></h4>
+                        <h4>
+                            <small> Esmalte Impala Descomplicado cremoso</small>
+                        </h4>
+                    </div>
+
+                    <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3
+                    offset-lg-0 col-xl-2 aling-self-center mt-3">
+                    <div class="input-group">
+                        <button type="button" class="btn btn-outline-dark btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                              </svg>
+                        </button>
+                        <input type="text" class="form-control text-center border-dark" value="1">
+                        <button type="button" class="btn btn-outline-dark btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                              </svg>
+                        </button>
+                        <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
+                              </svg>
+                        </button>
+                    </div>
+
+                    <div class="text-right mt-2">
+                        <small>Valor unit: R4 3,99</small><br>
+                        <span class="text-dark">Sub Total: R$ 3,99</span>
+                    </div>
+
+                    </div>
+
+                    </div>
+
+                    
+
+                </li>
+
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class=""col-4 col-md3 col-lg-2>
+                        <a href="#">
+                            <img src="img/moda-dádiva.jpg" class="img-thumbnail" width="150" height="150">
+                        </a>
+                    </div>
+
+                    <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                        <h4><b><a href="#" class="text-decoration-none text-black">Esmalte Impala</a>
+                        </b></h4>
+                        <h4>
+                            <small> Esmalte Impala Moda Dádiva cremoso</small>
+                        </h4>
+                    </div>
+
+                    <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3
+                    offset-lg-0 col-xl-2 aling-self-center mt-3">
+                    <div class="input-group">
+                        <button type="button" class="btn btn-outline-dark btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                              </svg>
+                        </button>
+                        <input type="text" class="form-control text-center border-dark" value="1">
+                        <button type="button" class="btn btn-outline-dark btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                              </svg>
+                        </button>
+                        <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
+                              </svg>
+                        </button>
+                    </div>
+
+                    <div class="text-right mt-2">
+                        <small>Valor unit: R$ 3,99</small><br>
+                        <span class="text-dark">Sub Total: R$ 3,99</span>
+                    </div>
+
+                    </div>
+
+                    </div>
+
+                    
+
+                </li>
+
+                <li class="list-group-item py-3">
+                    <div class="text-right">
+                        <h4 class="text-dark mb-3">Valor total: R$ 11,97</h4>
+                        <a href="/index.html" class="btn btn-outline-success btn-lg">Continuar comprando</a>
+                        <button class="btn btn-danger btn-lg">Fechar compra</button>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+      </main>
+
+      <footer>
+        <p>
+          <span>Diva Esmaltes</span>
+          &copy; 2024
+        </p>
+      </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
